@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.qq.skylight.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerJoinMixin",
+    "HungerManagerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "ClientJoinMixin",
+    "InGameHudMixin",
+    "SoundSystemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
