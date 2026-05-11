@@ -34,11 +34,11 @@ public class SkylightKeybinds {
                 "category.skylight.general"
         ));
 
-        // Screenshot key (C key)
+        // Screenshot key (I key)
         screenshotKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.skylight.screenshot",
                 InputUtil.Type.KEYSYM,
-                GLFW.GLFW_KEY_C,
+                GLFW.GLFW_KEY_I,
                 "category.skylight.general"
         ));
 

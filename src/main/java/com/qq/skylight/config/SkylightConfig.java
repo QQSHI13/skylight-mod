@@ -53,7 +53,7 @@ public class SkylightConfig implements ConfigData {
      */
     public static class KeybindingConfig {
         @ConfigEntry.Gui.Tooltip
-        public int keyCode = 75; // GLFW_KEY_K
+        public int keyCode = 85; // GLFW_KEY_U
     }
 
     /**

@@ -16,7 +16,8 @@
     "CameraMixin",
     "GameRendererMixin",
     "TimePauseMixin",
-    "MouseMixin"
+    "MouseMixin",
+    "GameOptionsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
